@@ -1,0 +1,11 @@
+!python -m experiments.LN_prompt \
+    --exp_name=bbfsdfdsbbzzbxxassyt \
+    --data_dir="/kaggle/input/datasets/b20dccn616nguynhutun/sketchy/Sketchy" \
+    --n_prompts=1 \
+    --clip_LN_lr=1e-3 \
+    --prompt_lr=1e-3 \
+    --triplet_weight=30.0 \
+    --classification_weight=0.5 \
+    --batch_size=64 \
+    --workers=8 \
+    --max_epochs=1
